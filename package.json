@@ -1,0 +1,21 @@
+{
+  "name": "java-web-bridge",
+  "version": "1.0.0",
+  "description": "serves a java console application as a web page",
+  "license": "GPL-3.0",
+  "author": "Ondřej Schlaichert",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "tslog": "^4.9.3",
+    "ws": "^8.18.1"
+  }
+}
